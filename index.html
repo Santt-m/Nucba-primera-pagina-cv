@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/img/profile.jfif" type="image/x-icon">
+    <title>Inicio | Inicio</title>
+</head>
+<body>
+    <header>
+        <h1>Santiago maruottolo</h1>
+        <img class="profile" src="./assets/img/yofaena.png" alt="">
+        <nav>
+            <a id="select" class="navegador" href="./index.html">Inicio</a>
+            <a class="navegador" href="./me.html">Sobre Mi</a>
+            <a class="navegador" href="./porfolio.html">Porfolio</a>
+            <a class="navegador" href="./contacto.html">Contacto</a>        
+        </nav>
+    </header>
+    <main>
+        <div class="Cv">
+            <div class="CvImg">
+            </div>
+            <div class="contCv">
+                <div class="cvTitle">
+                    <h2>Informacion sobre mi</h2>
+                </div>
+                <div class="cvDesc">
+                    <ul>
+                    <li>Nombre: Santiago Maruottolo</li>
+                    <li>Edad: 30 Años</li>
+                    <li>DNI: 36.754.526</li>
+                    <li>Telefono: <a href="tel:+541135966247">+54 11 35 966 247</a></li>
+                    <li>Mail: <a href="mailto:smbsanti@gmail.com">smbsanti@gmail.com</a></li>
+                    </ul>                
+                </div>
+                <div class="cvMe">
+                    <p>Soy Santiago, tengo 30 años, vivo en la ciudad autonoma de Buenos Aires, Argentina. Y si, estoy soltero por si estas interesada.</p>
+                    <p>Actualmente estoy estudiando desarrollo web Full Stack en Nucba y complementando con JavaScript de manera autodidacta. Anteriormente aprendi a programar
+                        en C con Arduino en la facultad, despues por mi cuenta aprendi C++ y un poco de .net con visual Studio y C#
+                        cuando desarrolle videojuegos en Unity. Aunque sinceramente ahora no me acuerdo de mucho, pero este año voy a dedicarme a recuperar
+                        todos esos conocimientos y aprender cosas nuevas para poder trabajar de lo que me gusta que es programar empezando por el desarrollo web.
+                         Mas recientemente me inscribi en un botcamp gratuito donde aprendi los conceptos basicos de html y css
+                        pero por los costos finales decidi pagar por uno y aca estoy.</p>
+                </div>
+                <div class="contTabla">
+                    <table>
+                        <caption>Lenguajes de programacion que me interesan</caption>
+                        <tbody>
+                            <tr>
+                                <td>°</td>
+                                <th>Lenguaje</th>
+                                <th>Estado</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <th>html</th>
+                                <th>Aprendiendo</th>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <th>Css</th>
+                                <th>Aprendiendo</th>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <th>JavaScript</th>
+                                <th>Aprendiendo</th>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <th>React Js</th>
+                                <th>Proximamente</th>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <th>Node Js</th>
+                                <th>Proximamente</th>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <th>Redux</th>
+                                <th>Proximamente</th>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <th>Python</th>
+                                <th>Proximamente</th>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <th>Java</th>
+                                <th>Proximamente</th>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <th>Go</th>
+                                <th>Quizas</th>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <th>C#</th>
+                                <th>Refrescar conocimientos</th>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <th>C++</th>
+                                <th>Refrescar conocimientos</th>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <th>.net</th>
+                                <th>aprender mas</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="imgtable">
+                        
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="contForm">
+            <h3>Contacto</h3>
+            <form action="">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                        <label for="nombre">Nombre:<input type="text" id="nombre" name="nombre" placeholder="Nombre"></label>
+                        <label for="apellido">Apellido: <input type="text" id="apellido" name="apellido" placeholder="apellido"></label>
+                        <label for="mail">mail: <input type="text" id="mail" name="mail" placeholder="mail@mail.com"></label>
+                        <label for="mail">Telefono: <input type="text" id="tel" name="tel" placeholder="+541135966247"></label>
+                        <fieldset>
+                            <legend>Genero</legend>
+                                <label for="masculino">masculino<input type="radio" id="masculino" name="genero" value="masculino"></label>
+                                <label for="femenino">femenino<input type="radio" id="femenino" name="genero" value="femenino"></label>
+                                <label for="otro">otro<input type="radio" id="otro" name="genero" value="otro"></label>
+                        </fieldset>
+                    </fieldset>
+                    <textarea name="texto" rows="10" cols="40">Escriba el motivo por el cual desea contactarse conmigo.</textarea>
+                        <fieldset>
+                            <legend>Newsletter</legend>
+                                <label for="actualizaciones">Actualizaciones de la pagina<input type="checkbox" name="newsletter" id="actualizaciones" value="actualizaciones"></label>
+                                <label for="cv">curriculum<input type="checkbox" name="newsletter" id="curriculum" value="curriculum"></label>
+                                <label for="cv">nuevos proyectos<input type="checkbox" name="newsletter" id="proyectos" value="proyectos"></label>
+                        </fieldset>
+                <input type="submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="contenedorProfile"><img class = "profileImagen" src="./assets/img/profile.png" alt="Developer profile image"></div>
+        <div><h6>designed by Santiago Maruottolo</h6></div>
+        <div class="contLin"><a href="https://www.linkedin.com/in/santtm/"><img class = "lin" src="./assets/img/linkedin-logo-png-2043.png" alt="Linkedin logo"></a></div>
+    </footer>
+</body>
+</html>
